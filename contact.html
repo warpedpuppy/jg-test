@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Contact Jose Garcia</title>
+      <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+      <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Overpass:400,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.production.css">
+   </head>
+   <body>
+      <div>
+         <header class="page-header">
+            <img src="img/logo-1.svg" width="300" height="100" alt="logo" class="page-header__item">
+            <nav class="main-navigation-page-header__item">
+               <ul role="menubar" class="navigation-list">
+                  <li role="presentation">
+                     <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="about.html" role="menuitem" class="navigation-list__item" aria-label="About Me">About</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <div class="profile">
+            <img src="img/domain.svg" width="200" height="200" class="profile__portrait" alt="Web Development">
+            <h1>Contact me at!</h1>
+         </div>
+         For any further infomation<br>
+         feel free to contact me<br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="contact-form">
+            <form action="http://www.example.com/example.htm" method="post" id="contact-form" name="contact-form">
+               <label class="standard-label" for="contact-email">E-mail: </label>
+               <br>
+               <input type="email" id="contact-email" required /><br><br>
+               <label class="standard-label" for="contact-tel">Telephone: </label>
+               <br>
+               <input
+                  type="tel"
+                  id="contact-tel"
+                  pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                  /> <br><br>
+               <label class="standard-label" for="contact-message">Message: </label>
+               <br>
+               <textarea id="contact-message" required maxlength="240"></textarea><br><br>
+               <button class="contact-button" type="submit">Send Message</button>
+            </form>
+         </div>
+         <div class="contact-info">
+            Telephone <a href="tel:832-444-8555" aria-label="My phone number is 832-444-8555">832-444-8555</a><br>
+            Skype <a href="live:.cid.9185719d954d2e24">Jose Garcia</a><br>
+            <a href="mailto:jgapple15gg2@gmail.com">My email</a>
+         </div>
+         <footer class="page-footer">
+            <p>Find me on</p>
+            <!-- Github Icon -->
+            <div class="social-media">
+               <a href="https://github.com/JoseG-CF"><img src="img/iconfinder_Github.svg" width="30" height="30" alt="github"></a> <!-- Twitter Icon -->
+               <a href="https://twitter.com/careerfoundry"><img src="img/iconfinder_twitter.svg" width="30" height="30" alt="twitter"></a> <!-- LinkedIn Icon-->
+               <a href="https://www.linkedin.com/in/jose-garcia-21a3b71b9/"><img src="img/iconfinder_linkedin.svg" width="30" height="30" alt="linkedin"></a>
+            </div>
+         </footer>
+      </div>
+      <script src="js/tota11y.min.js"></script>
+   </body>
+</html>
